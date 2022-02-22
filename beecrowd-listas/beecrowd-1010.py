@@ -1,0 +1,5 @@
+A = str(input())
+B = str(input())
+aList = A.split()
+bList = B.split()
+print(f"VALOR A PAGAR: R$ {float(aList[1])*float(aList[2]) + float(bList[1])*float(bList[2]):.2f}")
